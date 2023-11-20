@@ -1,0 +1,196 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 1.5rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #463f3f;
+    background-image: url("../media/background.png");
+    background-size: 25%;
+}
+
+main {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    backdrop-filter: blur(1rem);
+    background-color: #ded4d4;
+    border: #c2baba solid 1px;
+    border-radius: 3% 3%;
+}
+
+main section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+main section h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+
+}
+
+main section h1 a {
+    text-decoration: none;
+}
+
+main section > p {
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+}
+
+main > section > h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+main section article {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+main section article h2 {
+    text-shadow: black 1px 0;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Book Antiqua", serif;
+}
+
+.question_answer h2 {
+    font-family: Open Sans serif;
+    font-style: italic;
+    color: #555555;
+    width: 50%;
+    border-radius: 0.5rem;
+    padding: 0.5em 1rem 0.5em 0.75rem;
+    border-left: 8px solid #78C0A8;
+    background: #EDEDED;
+}
+
+.suggestion h2 {
+    font-family: "Bold", serif;
+    color: #111111;
+    width: 50%;
+    border-radius: 0.5rem;
+    padding: 0.5em 1rem 0.5em 0.75rem;
+    border-left: 8px solid #de5151;
+    background: #EDEDED;
+}
+
+main section article p {
+    font-family: "Book Antiqua", serif;
+    font-size: 1.4rem;
+    margin-bottom: 0.25rem;
+    line-height: 1.75rem;
+}
+
+main section article ol {
+    padding-left: 1.5rem;
+    list-style-type: decimal;
+}
+
+main section article ol li::marker {
+    font-weight: bold;
+}
+
+main section article ol li, main section article p {
+    margin-bottom: 0.5rem;
+    font-family: Arial, serif;
+    font-size: 1.25rem;
+    line-height: 1.4rem;
+}
+
+/*
+    Examples
+ */
+
+.chat_example {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    float: right;
+    width: 45%;
+    border-radius: 10%;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    box-shadow: -10px 20px 60px #9d9292, 20px -20px 60px #c7b1b1;
+}
+
+.chat_form {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, serif;
+}
+
+.slack_pro {
+    padding-left: 3.5rem;
+    background-image: url("../media/pro-pfp.png");
+    background-size: 3.5rem;
+    padding-top: 0.5rem;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+}
+
+.slack_noob {
+    padding-left: 3.5rem;
+    background-image: url("../media/noob-pfp.png");
+    background-size: 3rem;
+    padding-top: 0.25rem;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+
+}
+
+.slackname {
+    font-weight: bold;
+    font-size: 1.4rem;
+    display: inline-block;
+}
+
+.slacktime {
+    font-size: 0.9rem;
+    color: #616061;
+}
+
+.slackmessage {
+    font-size: 1.25rem;
+}
+
+/*
+    SUB
+*/
+
+.more_attention {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blue {
+    font-weight: bold;
+    color: #2828ea;
+}
+
+.red {
+    font-weight: bold;
+    color: red;
+}
+
+.orange {
+    font-weight: bold;
+    color: orange;
+}
+
+.green {
+    font-weight: bold;
+    color: #06a906;
+}

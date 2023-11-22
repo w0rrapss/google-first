@@ -15,7 +15,7 @@ main {
     backdrop-filter: blur(1rem);
     background-color: #ded4d4;
     border: #c2baba solid 1px;
-    border-radius: 3% 3%;
+    border-radius: 3rem;
 }
 
 main section {

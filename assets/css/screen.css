@@ -24,11 +24,48 @@ main section {
     text-align: center;
 }
 
+main header ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+main header ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+main header ul li:hover {
+    transform: scale(1.1);
+    transition: transform .1s ease;
+}
+
+main ul li::before {
+    content: "";
+    background-repeat: no-repeat;
+    display: inline-block;
+  
+    height: 1.5rem;
+    width: 1.5rem;
+
+    position: relative;
+    padding-right: 0.25rem;
+    top: 0.25rem;
+}
+
+main ul li:lang(en):before {
+    background-image: url(../media/lang_flags/en.svg);
+}
+
+main ul li:lang(uk):before {
+    background-image: url(../media/lang_flags/uk.svg);
+}
+
 main section h1 {
     font-weight: bold;
     font-size: 3rem;
     margin-bottom: 0.5rem;
-
 }
 
 main section h1 a {
@@ -193,4 +230,14 @@ main section article ol li, main section article p {
 .green {
     font-weight: bold;
     color: #06a906;
+}
+
+#selected_lang {
+    cursor: not-allowed;
+}
+
+#selected_lang a {
+    text-decoration: underline;
+    color: black;
+    pointer-events: none;
 }
